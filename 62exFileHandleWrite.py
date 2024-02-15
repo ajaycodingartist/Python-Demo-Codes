@@ -1,0 +1,6 @@
+x=open("Indian.txt","w")
+x.write("India is my country.") 
+x.close()
+x=open("Indian.txt","rt")
+print(x.read())
+x.close()

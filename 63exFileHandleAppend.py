@@ -1,0 +1,6 @@
+x=open("Indian.txt","a")
+x.write("All Indians are My bros and sis")
+x.close()
+x=open("Indian.txt","rt")
+print(x.read())
+x.close()
